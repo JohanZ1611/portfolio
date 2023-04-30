@@ -1,5 +1,4 @@
 .text-animate {
-  position: relative;
   width: 32.8rem;
 }
 
@@ -52,5 +51,50 @@
 }
 
 .redes {
-  width: 170px;
+  width: 250px;
+}
+
+.red {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.1rem solid #00a3e6;
+  border-radius: 50%;
+  fill: #00a3e6;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.red:hover {
+  fill: #081c29;
+}
+
+.red::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00a3e6;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.red:hover::before {
+  width: 100%;
+}
+
+.imgHover {
+  transition: 3s;
+}
+
+.imgHover:hover {
+  background: #081c29;
+  opacity: 0.8;
 }

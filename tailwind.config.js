@@ -25,6 +25,9 @@ export default {
         "btn-home": "3.5rem",
         "hei-btn": "100%",
       },
+      backgroundImage: {
+        "img-home": "url('/src/assets/images/Home.png')",
+      },
     },
   },
   plugins: [],
