@@ -1,0 +1,6 @@
+.fp-watermark {
+  display: none !important;
+}
+.fp-watermark > a {
+  display: none !important;
+}

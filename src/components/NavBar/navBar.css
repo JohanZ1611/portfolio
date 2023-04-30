@@ -1,0 +1,18 @@
+.anchor {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  margin-left: 3.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.anchor:hover,
+.anchor.active {
+  color: #0d83b9;
+}
+
+#menu-icon {
+  cursor: pointer;
+  display: none;
+}

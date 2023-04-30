@@ -1,0 +1,56 @@
+.text-animate {
+  position: relative;
+  width: 32.8rem;
+}
+
+.text-animate h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00a3e6;
+}
+
+.btn {
+  border: 0.15rem solid #00a3e6;
+  border-radius: 0.5rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #00a3e6;
+}
+
+.btn:nth-child(2) {
+  background: transparent;
+  color: #00a3e6;
+}
+
+.btn:nth-child(2):hover {
+  color: #081c29;
+}
+
+.btn:nth-child(2)::before {
+  background: #00a3e6;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081c29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.redes {
+  width: 170px;
+}
