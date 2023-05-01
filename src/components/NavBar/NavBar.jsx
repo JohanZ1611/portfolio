@@ -4,7 +4,7 @@ import { Link as Anchor } from "react-scroll";
 
 function NavBar() {
   return (
-    <div className=" bg-transparent fixed left-0 top-0 w-screen py-6 px-28 flex justify-between items-center z-10">
+    <div className=" bg-color-base fixed left-0 top-0 w-screen py-6 px-28 flex justify-between items-center z-10">
       <Anchor
         className=" text-2xl font-semibold text-white cursor-pointer"
         to="/"

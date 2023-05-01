@@ -2,7 +2,7 @@ import "./home.css";
 import { Link as Anchor } from "react-scroll";
 export default function Home() {
   return (
-    <div className=" h-screen w-screen bg-img-home bg-cover bg-center bg-no-repeat flex flex-col gap-16 justify-end pb-8 px-36">
+    <div className=" h-screen bg-img-home bg-cover bg-center bg-no-repeat flex flex-col gap-16 justify-end pb-8 px-36">
       <div className=" max-w-60">
         <h1 className=" text-6xl font-bold leading-title">
           Hola, Soy <span>Johan Zuluaga</span>
