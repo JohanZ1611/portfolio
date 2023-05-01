@@ -1,0 +1,8 @@
+.imgAbout {
+  width: 16rem;
+  height: 16rem;
+}
+
+.btn2::before {
+  background: #0e2c43;
+}
