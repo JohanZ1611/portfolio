@@ -10,7 +10,7 @@ export default function About() {
       <div>
         <img
           className="imgAbout ml-10"
-          src="../src/assets/images/imgAbout.png"
+          src="https://i.postimg.cc/rpTd8Yg3/imgAbout.png"
           alt="about"
         />
       </div>
