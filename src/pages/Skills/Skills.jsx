@@ -12,70 +12,80 @@ export default function Skills() {
     {
       id: 1,
       title: "HTML5",
-      description: "description1",
+      description:
+        "Tengo habilidades en HTML5, lo que me permite crear y diseñar sitios web modernos con una excelente estructura y semántica. ",
       image: "https://i.postimg.cc/zfvcLP1j/html5-logo.png",
       color: "#0D83B9",
     },
     {
       id: 2,
       title: "CSS3",
-      description: "description1",
+      description:
+        " Puedo diseñar sitios web con estilo moderno y atractivo, utilizando animaciones, transiciones y otras técnicas avanzadas para mejorar la experiencia del usuario. Además, soy capaz de crear diseños responsivos que se adaptan a diferentes dispositivos y tamaños de pantalla.",
       image: "https://i.postimg.cc/wMkcHPVH/css3-logo.png",
       color: "#00A3E6",
     },
     {
       id: 3,
       title: "JavaScript",
-      description: "description1",
+      description:
+        "Puedo crear interactividad y dinamismo en los sitios web. Soy capaz de crear efectos visuales, agregar formularios, crear validaciones y muchas otras funciones avanzadas que mejoran la experiencia del usuario.",
       image: "https://i.postimg.cc/zBGq0Hcj/javascript-logo.png",
       color: "#0D83B9",
     },
     {
       id: 4,
       title: "React",
-      description: "description1",
+      description:
+        " Puedo crear interfaces de usuario interactivas y reutilizables para sitios web. Puedo utilizar componentes de React para dividir la página en pequeñas partes que pueden actualizarse de manera independiente, lo que me permite crear aplicaciones web rápidas y escalables.",
       image: "https://i.postimg.cc/CxKTypNh/react-logo.png",
       color: "#00A3E6",
     },
     {
       id: 5,
       title: "NodeJs",
-      description: "description1",
+      description:
+        " Puedo crear aplicaciones de servidor escalables y eficientes. Puedo manejar solicitudes y respuestas HTTP, trabajar con bases de datos y crear aplicaciones en tiempo real.",
       image: "https://i.postimg.cc/d1hrg372/nodejs-logo.png",
       color: "#0D83B9",
     },
     {
       id: 6,
       title: "Mongo",
-      description: "description1",
+      description:
+        "Tengo habilidades en MongoDB, lo que me permite crear y manejar bases de datos NoSQL. ",
       image: "https://i.postimg.cc/02YmTLNB/mongodb-logo.png",
       color: "#00A3E6",
     },
     {
       id: 7,
       title: "Redux",
-      description: "description1",
+      description:
+        "Puedo manejar el estado de las aplicaciones web de manera predecible y fácil de razonar. Puedo crear acciones, reducers y selectores para manejar la lógica de la aplicación de manera clara y escalable.",
       image: "https://i.postimg.cc/ZY3yN165/redux-logo.png",
       color: "#0D83B9",
     },
     {
       id: 8,
       title: "Git",
-      description: "description1",
+      description:
+        "Puedo controlar y rastrear los cambios en el código fuente de los proyectos de software. Puedo crear ramas, fusionar cambios y colaborar con otros desarrolladores de manera efectiva.",
       image: "https://i.postimg.cc/vHtgqfqR/git-logo.png",
       color: "#00A3E6",
     },
     {
       id: 9,
       title: "Tailwind",
-      description: "description1",
+      description:
+        "Puedo diseñar y desarrollar aplicaciones web de manera rápida y eficiente. Puedo utilizar las clases predefinidas de Tailwind para crear diseños responsivos y personalizados.",
       image: "https://i.postimg.cc/y86JwxtD/tailwind-css-logo.png",
       color: "#0D83B9",
     },
     {
       id: 10,
       title: "Bootstrap",
-      description: "description1",
+      description:
+        "Puedo diseñar y desarrollar aplicaciones web responsivas y adaptativas de manera sencilla y rápida. Puedo utilizar las clases predefinidas de Bootstrap para crear diseños atractivos y modernos.",
       image: "https://i.postimg.cc/dVW7vvc4/bootstrap-logo.png",
       color: "#00A3E6",
     },

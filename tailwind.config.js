@@ -20,6 +20,7 @@ export default {
         "wid-btn": "10rem",
         "wid-btn2": "15rem",
         tam: "800px",
+        img: "645px",
       },
       height: {
         "btn-home": "3.5rem",
