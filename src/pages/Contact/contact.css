@@ -1,0 +1,35 @@
+.borde {
+  border: 0.1rem solid #00a3e6;
+}
+
+.h-text {
+  height: 14rem;
+}
+
+.w-input {
+  width: 49%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+.focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #0e2c43;
+  border-radius: 8px;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+input:focus ~ .focus,
+input:valid ~ .focus,
+textarea:focus ~ .focus,
+textarea:valid ~ .focus {
+  width: 100%;
+}
