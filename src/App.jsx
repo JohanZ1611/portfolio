@@ -9,10 +9,10 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      {/* <Home />
+      <Home />
       <About />
       <Skills />
-      <Proyects /> */}
+      <Proyects />
       <Contact />
     </div>
   );
