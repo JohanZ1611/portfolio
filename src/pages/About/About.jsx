@@ -1,5 +1,5 @@
 import "./about.css";
-import { Link as Anchor } from "react-scroll";
+import { Link as Anchor } from "react-router-dom";
 
 export default function About() {
   return (

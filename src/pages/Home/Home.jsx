@@ -1,5 +1,5 @@
 import "./home.css";
-import { Link as Anchor } from "react-scroll";
+import { Link as Anchor } from "react-router-dom";
 export default function Home() {
   return (
     <div className=" h-screen bg-img-home bg-cover bg-center bg-no-repeat flex flex-col gap-16 justify-end pb-8 px-36">

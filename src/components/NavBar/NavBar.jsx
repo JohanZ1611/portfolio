@@ -1,6 +1,6 @@
 import "./navBar.css";
 import "boxicons";
-import { Link as Anchor } from "react-scroll";
+import { Link as Anchor } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -20,11 +20,21 @@ function NavBar() {
       ></box-icon>
 
       <div>
-        <Anchor className="anchor active">Inicio</Anchor>
-        <Anchor className="anchor">Sobre mi</Anchor>
-        <Anchor className="anchor">Habilidades</Anchor>
-        <Anchor className="anchor">Proyectos</Anchor>
-        <Anchor className="anchor">Contacto</Anchor>
+        <Anchor to="/" className="anchor active">
+          Inicio
+        </Anchor>
+        <Anchor to="/About" className="anchor">
+          Sobre mi
+        </Anchor>
+        <Anchor to="/Skills" className="anchor">
+          Habilidades
+        </Anchor>
+        <Anchor to="/Proyects" className="anchor">
+          Proyectos
+        </Anchor>
+        <Anchor to="/Contact" className="anchor">
+          Contacto
+        </Anchor>
       </div>
     </div>
   );
