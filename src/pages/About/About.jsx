@@ -1,5 +1,6 @@
 import "./about.css";
 import { Link as Anchor } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 export default function About() {
   return (
@@ -32,6 +33,7 @@ export default function About() {
           </Anchor>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

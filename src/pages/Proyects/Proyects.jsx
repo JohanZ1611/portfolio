@@ -1,4 +1,5 @@
 import "./proyects.css";
+import Footer from "../../components/Footer/Footer";
 import image from "../../assets/images/image10.png";
 import image2 from "../../assets/images/image11.png";
 import image3 from "../../assets/images/image12.png";
@@ -96,6 +97,7 @@ export default function Proyects() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

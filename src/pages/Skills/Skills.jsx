@@ -1,5 +1,6 @@
 import "./skills.css";
 import "boxicons";
+import Footer from "../../components/Footer/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -121,6 +122,7 @@ export default function Skills() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <Footer />
     </div>
   );
 }

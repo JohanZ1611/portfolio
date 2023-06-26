@@ -1,4 +1,6 @@
 import "./contact.css";
+import "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 export default function Contact() {
   return (
@@ -69,6 +71,7 @@ export default function Contact() {
           </button>
         </div>
       </form>
+      <Footer />
     </div>
   );
 }
