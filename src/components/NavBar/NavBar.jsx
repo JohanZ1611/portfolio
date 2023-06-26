@@ -1,10 +1,7 @@
 import "./navBar.css";
 import "boxicons";
 import { Link as Anchor } from "react-router-dom";
-<<<<<<< HEAD
 import { useState } from "react";
-=======
->>>>>>> 17ce659214b01819c8489524accb7c288830a0a6
 
 function NavBar() {
   const [active, setActive] = useState("Inicio");
@@ -30,7 +27,6 @@ function NavBar() {
       ></box-icon>
 
       <div>
-<<<<<<< HEAD
         <Anchor
           to="/"
           className={active === "Inicio" ? "anchor active" : "anchor"}
@@ -64,21 +60,6 @@ function NavBar() {
           className={active === "Contacto" ? "anchor active" : "anchor"}
           onClick={() => handleAnchorClick("Contacto")}
         >
-=======
-        <Anchor to="/" className="anchor active">
-          Inicio
-        </Anchor>
-        <Anchor to="/About" className="anchor">
-          Sobre mi
-        </Anchor>
-        <Anchor to="/Skills" className="anchor">
-          Habilidades
-        </Anchor>
-        <Anchor to="/Proyects" className="anchor">
-          Proyectos
-        </Anchor>
-        <Anchor to="/Contact" className="anchor">
->>>>>>> 17ce659214b01819c8489524accb7c288830a0a6
           Contacto
         </Anchor>
       </div>
