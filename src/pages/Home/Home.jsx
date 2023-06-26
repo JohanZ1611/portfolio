@@ -23,7 +23,10 @@ export default function Home() {
           <Anchor className="btn cursor-pointer relative inline-flex justify-center items-center w-wid-btn h h-hei-btn bg-btn2-color font-semibold text-xl tracking-widest text-color-base">
             CV
           </Anchor>
-          <Anchor className="btn cursor-pointer relative inline-flex justify-center items-center w-wid-btn2 h h-hei-btn bg-btn2-color  font-semibold text-xl tracking-widest text-color-base">
+          <Anchor
+            to={"/Contact"}
+            className="btn cursor-pointer relative inline-flex justify-center items-center w-wid-btn2 h h-hei-btn bg-btn2-color  font-semibold text-xl tracking-widest text-color-base"
+          >
             Conversemos
           </Anchor>
         </div>
